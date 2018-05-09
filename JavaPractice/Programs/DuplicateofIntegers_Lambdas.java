@@ -22,6 +22,9 @@ public class DuplicateofIntegers_Lambdas {
 				
 				System.out.println("Found Duplicate Integers" + duplicated);
 				
+				
+				
+				
 				//Printing Distinct values
 				List<Integer> distinct = numbers.stream().map( i -> i).distinct().collect(Collectors.toList());
 				
