@@ -16,8 +16,7 @@ public class Json_Reading {
 
 	public static void main(String[] args) throws Exception {
 
-	        	
-	      //("Testdata\\SampleTestdata.json");
+	        		      //("Testdata\\SampleTestdata.json");
 		 FileReader reader = new FileReader("Testdata\\SampleTestdata.json");
 		 
 		 JSONParser jsonParser = new JSONParser();		
