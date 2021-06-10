@@ -1,10 +1,35 @@
 {
-
-	"employees":
-	[  
-	    {"name":"Shyam", "email":"shyamjaiswal@gmail.com"},  
-	    {"name":"Bob", "email":"bob32@gmail.com"},  
-	    {"name":"Jai", "email":"jai87@gmail.com"}  
-	]
-
-}  
+  "Trains": [
+    {
+      "TrainName": "Godavari",
+      "Ticket Rates": {
+        "General price": {
+          "SL": "30",
+          "AC": "500"
+        },
+        "Tatkal price": {
+          "SL": "50",
+          "AC": "1000"
+        }
+      }
+    },
+    {
+      "TrainName": "Krishna",
+      "Ticket Rates": {
+        "General price": {
+          "SL": "30",
+          "AC": "500"
+        },
+        "Tatkal price": {
+          "SL": "50",
+          "AC": "1000"
+        }
+      }
+    }
+  ],
+  
+  "Taxes": {
+    "GST": "0.03",
+    "ST": "15"
+  }
+}

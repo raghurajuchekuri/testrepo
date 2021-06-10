@@ -6,16 +6,17 @@ public class FabinocciSeries {
 		
 		// 0 1 1 2 3 5 8 13 21
 
-		int a=0, b=1, c;
+		int a=0, b=1, c=1;
 		
 		System.out.print(a +" "+ b+" ");
-		for (int i=0; i<15; i++)
+		
+		for (int i=0; i<8; i++)
 		{
-			c = a + b;
-			System.out.print(c +" ");
 			
-			a=b;
-			b=c;
+			System.out.print(c +" ");			
+			a = b;
+			b = c;
+			c = a + b;
 			
 		}
 

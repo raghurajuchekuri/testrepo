@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 public class DuplicatesinStrings {
 
 	public static void main(String[] args) {
-		// Create List of square of all distinct numbers
+		
 				List<String> numbers = Arrays.asList("Raghu", "Raghu1", "Raghu2", "Raghu3", "Raghu1", "Raghu4", "Raghu3");
 				
 				// Printing duplicates using lambdas

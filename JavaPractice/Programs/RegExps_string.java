@@ -4,11 +4,11 @@ public class RegExps_string {
 
 	public static void main(String[] args) {
 
-		String x="SA#$*N6&DEE0(P";
+		String x="IS#$*H6&U_0(U";
 		
-		x = x.replaceAll("[^a-zA-Z_]", "");
+		x = x.replaceAll("[^a-zA-Z]", "");
 		
-		System.out.println(x);
+		System.out.println(x); // ISHUU
 
 	}
 
